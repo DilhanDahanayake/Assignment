@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Assignment">
+
+<listeners>
+		<listener class-name="com.assignment.qa.extentReport.ExtentReport" />
+</listeners>
+
+	<test name=" Assignment 2">
+		<classes>
+			<class name="com.assignment.qa.testcases.LoginpageTest"></class>
+			<class name="com.assignment.qa.testcases.HomepageTest"></class>
+			<class name="com.assignment.qa.testcases.ApprovepageTest"></class>
+			<class name="com.assignment.qa.testcases.ReportpageTest"></class>
+			<class name="com.assignment.qa.testcases.UserpageTest"></class>
+		</classes> 
+	</test>
+</suite>
